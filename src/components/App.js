@@ -11,8 +11,13 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home 
+      LizasObj = {user}
+      />
+      <About 
+      bio = {user.bio}
+      links = {user.links}
+      />
     </div>
   );
 }
