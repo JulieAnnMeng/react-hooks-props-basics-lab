@@ -1,11 +1,10 @@
-function Links (props) {
-    // console.log(props.links)
+function Links ({github, linkedin}) {
     return (
-        <Links>
-            <h3>Links</h3>
-            <a href={props.github}>Github link</a>
-            <a href={props.linkedin}>LinkedIn link</a>
-        </Links>
+        <h3>
+            Links
+            <a href={github}>Github link</a>
+            <a href={linkedin}>LinkedIn link</a>
+        </h3>
     )
 }
 
